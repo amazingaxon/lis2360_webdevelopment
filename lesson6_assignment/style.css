@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document created by Jacob Axon, 3/24/2019*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif, Verdana;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #FFFFFF;
+	background-color: #1A1F5A;
+	padding: 20px 60px;
+	font-weight: normal;
+	
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	font-family: monospace;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	
+	
+	
+}
+h1 {
+	font-family: fantasy;
+	font-size: 30px;
+	padding: 6px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 3em;
+	color: #FFFFFF;
+	background-color: #3A631E
+}
+h2 {
+	font-family: fantasy;
+	font-size: 24px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #3A631E;
+	color: #FFFFFF;
+}
+h3 {
+	font-family: fantasy;
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #3A631E;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-family: serif;
+	font-weight: bold;
+	color: #F7FFFF;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: serif;
+	font-weight: normal;
+	color: #25FF1F;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: serif;
+	color: #3A631E;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #F7FFFF 1px;
+	padding: 10px;
+}
+td {
+	padding: 6px;
+	border: solid #F7FFFF 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #3A631E;
+	text-align: center;
+	padding: 6px;
+	border: solid #F7FFFF 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #3A631E 2px;
+}
+
+img {
+	border: solid #3A631E 2px;
+
+}
+
+iframe {
+	border: solid #3A631E 1px;
+	padding: 10px;
+	margin: 10px;
+}
+
