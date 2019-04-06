@@ -21,6 +21,12 @@ p, li, td {
 	
 	
 }
+
+q{
+	font-family: fantasy;
+	font-size: 30px;
+	letter-spacing: 0.2em;
+}
 h1 {
 	font-family: fantasy;
 	font-size: 30px;
@@ -30,6 +36,7 @@ h1 {
 	line-height: 3em;
 	color: #FFFFFF;
 	background-color: #3A631E
+	
 }
 h2 {
 	font-family: fantasy;
@@ -115,3 +122,51 @@ iframe {
 	margin: 10px;
 }
 
+/* DIV STYLES FOR PAGE LAYOUT --------------------------*/
+
+#container {
+	width:1000;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	width:100%;
+	text-align: center;
+}
+
+#content{
+	width: 100%;
+	text-align: left;
+}
+
+#sidebar{
+	width: 278px; 
+	float: right;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: green;
+	border: 3px solid white;
+	border-radius: 12px;
+	
+}
+
+#sidebar p{
+	padding:10;
+	float: right;
+	padding-bottom: 20px;
+	
+}
+
+#footer{
+	clear:both;
+	width: 100%;
+	background-color: green;
+	border-top: 5px solid white;
+}
+
+#footer p{
+	margin: 0;
+	padding-top:40px;
+}
